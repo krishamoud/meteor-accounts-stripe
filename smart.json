@@ -1,0 +1,7 @@
+{
+    "name": "accounts-stripe",
+    "description": "Login service for stripe accounts",
+    "homepage": "http://paytagz.com",
+    "author": "Kris Hamoud (https://github.com/khamoud)",
+    "version": "0.0.1"
+}
