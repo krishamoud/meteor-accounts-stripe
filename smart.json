@@ -1,7 +1,8 @@
 {
     "name": "accounts-stripe",
     "description": "Login service for stripe accounts",
-    "homepage": "http://paytagz.com",
+    "homepage": "https://github.com/khamoud/meteor-accounts-stripe",
     "author": "Kris Hamoud (https://github.com/khamoud)",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "git": "https://github.com/khamoud/meteor-accounts-stripe.git"
 }
