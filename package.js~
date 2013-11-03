@@ -15,7 +15,8 @@ Package.on_use(function(api) {
     api.use('service-configuration', ['client', 'server']);
   	
   	api.add_files(
-    ['lib/stripe_configure.html', 'lib/stripe_configure.js'],
+    ['lib/stripe_configure.html', 'lib/stripe_configure.js', 
+    'lib/strip_login_button.css'],
     'client');
 
     api.add_files("lib/accounts_stripe.js");
