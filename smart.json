@@ -3,6 +3,6 @@
     "description": "Login service for stripe accounts",
     "homepage": "https://github.com/khamoud/meteor-accounts-stripe",
     "author": "Kris Hamoud (https://github.com/khamoud)",
-    "version": "0.0.3",
+    "version": "1.0.3",
     "git": "https://github.com/khamoud/meteor-accounts-stripe.git"
 }
