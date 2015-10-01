@@ -1,8 +1,9 @@
 Package.describe({
-    summary: "Login service for stripe accounts"
+    summary: 'Login service for stripe accounts',
 });
 
-Package.on_use(function(api) {
+Package.onUse( function (api) {
+    api.versionsFrom('1.2');  
     api.use('accounts-base', ['client', 'server']);
     api.imply('accounts-base', ['client', 'server']);
     api.use('accounts-oauth', ['client', 'server']);
@@ -15,12 +16,12 @@ Package.on_use(function(api) {
     api.use('random', 'client');
     api.use('service-configuration', ['client', 'server']);
   	
-  	api.add_files(
+  	api.addFiles(
     ['lib/stripe_configure.html', 'lib/stripe_configure.js', 
     'lib/stripe_login_button.css'],
     'client');
 
-    api.add_files("lib/accounts_stripe.js");
-    api.add_files('lib/stripe_client.js', 'client');
-    api.add_files('lib/stripe_server.js', 'server');
+    api.addFiles("lib/accounts_stripe.js");
+    api.addFiles('lib/stripe_client.js', 'client');
+    api.addFiles('lib/stripe_server.js', 'server');
 });
