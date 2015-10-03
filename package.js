@@ -4,7 +4,8 @@ Package.describe({
 });
 
 Package.onUse( function (api) {
-    api.versionsFrom('1.2');  
+    api.versionsFrom('1.2'); 
+    if (api.export) api.export('StripeOAuth');     
     api.use('accounts-base', ['client', 'server']);
     api.imply('accounts-base', ['client', 'server']);
     api.use('accounts-oauth', ['client', 'server']);
