@@ -1,5 +1,6 @@
 Package.describe({
     summary: 'Login service for stripe accounts',
+    name: 'accounts-stripe'
 });
 
 Package.onUse( function (api) {
